@@ -1,0 +1,11 @@
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\bin\Debug\netcoreapp3.1\Lista 05.exe
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\bin\Debug\netcoreapp3.1\Lista 05.deps.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\bin\Debug\netcoreapp3.1\Lista 05.runtimeconfig.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\bin\Debug\netcoreapp3.1\Lista 05.runtimeconfig.dev.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\bin\Debug\netcoreapp3.1\Lista 05.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\bin\Debug\netcoreapp3.1\Lista 05.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\obj\Debug\netcoreapp3.1\Lista 05.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\obj\Debug\netcoreapp3.1\Lista 05.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\obj\Debug\netcoreapp3.1\Lista 05.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\obj\Debug\netcoreapp3.1\Lista 05.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Lista 05\obj\Debug\netcoreapp3.1\Lista 05.pdb
