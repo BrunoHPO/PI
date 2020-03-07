@@ -1,0 +1,11 @@
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\bin\Debug\netcoreapp3.1\Modulo 01 - FINAL.exe
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\bin\Debug\netcoreapp3.1\Modulo 01 - FINAL.deps.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\bin\Debug\netcoreapp3.1\Modulo 01 - FINAL.runtimeconfig.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\bin\Debug\netcoreapp3.1\Modulo 01 - FINAL.runtimeconfig.dev.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\bin\Debug\netcoreapp3.1\Modulo 01 - FINAL.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\bin\Debug\netcoreapp3.1\Modulo 01 - FINAL.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\obj\Debug\netcoreapp3.1\Modulo 01 - FINAL.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\obj\Debug\netcoreapp3.1\Modulo 01 - FINAL.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\obj\Debug\netcoreapp3.1\Modulo 01 - FINAL.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\obj\Debug\netcoreapp3.1\Modulo 01 - FINAL.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\Modulo 01 - FINAL\obj\Debug\netcoreapp3.1\Modulo 01 - FINAL.pdb
