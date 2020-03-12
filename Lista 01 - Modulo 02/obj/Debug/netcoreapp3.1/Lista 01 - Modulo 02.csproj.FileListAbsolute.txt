@@ -1,0 +1,11 @@
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\bin\Debug\netcoreapp3.1\Lista 01 - Modulo 02.exe
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\bin\Debug\netcoreapp3.1\Lista 01 - Modulo 02.deps.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\bin\Debug\netcoreapp3.1\Lista 01 - Modulo 02.runtimeconfig.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\bin\Debug\netcoreapp3.1\Lista 01 - Modulo 02.runtimeconfig.dev.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\bin\Debug\netcoreapp3.1\Lista 01 - Modulo 02.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\bin\Debug\netcoreapp3.1\Lista 01 - Modulo 02.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\obj\Debug\netcoreapp3.1\Lista 01 - Modulo 02.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\obj\Debug\netcoreapp3.1\Lista 01 - Modulo 02.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\obj\Debug\netcoreapp3.1\Lista 01 - Modulo 02.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\obj\Debug\netcoreapp3.1\Lista 01 - Modulo 02.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 01 - Modulo 02\obj\Debug\netcoreapp3.1\Lista 01 - Modulo 02.pdb
