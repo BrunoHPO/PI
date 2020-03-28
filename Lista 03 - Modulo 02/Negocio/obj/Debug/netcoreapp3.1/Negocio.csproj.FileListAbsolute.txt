@@ -1,0 +1,12 @@
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\bin\Debug\netcoreapp3.1\Negocio.deps.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\bin\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\bin\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CopyComplete

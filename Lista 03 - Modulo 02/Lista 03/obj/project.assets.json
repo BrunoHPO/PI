@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dado/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dado.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dado.dll": {}
+        }
+      },
+      "Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interfaces.dll": {}
+        }
+      },
+      "Negocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Negocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dado/1.0.0": {
+      "type": "project",
+      "path": "../Dado/Dado.csproj",
+      "msbuildProject": "../Dado/Dado.csproj"
+    },
+    "Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Interfaces/Interfaces.csproj",
+      "msbuildProject": "../Interfaces/Interfaces.csproj"
+    },
+    "Negocio/1.0.0": {
+      "type": "project",
+      "path": "../Negocio/Negocio.csproj",
+      "msbuildProject": "../Negocio/Negocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Dado >= 1.0.0",
+      "Negocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\BrunoHPO\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Lista 03\\Lista 03.csproj",
+      "projectName": "Lista 03",
+      "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Lista 03\\Lista 03.csproj",
+      "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Lista 03\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Dado\\Dado.csproj": {
+              "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Dado\\Dado.csproj"
+            },
+            "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Negocio\\Negocio.csproj": {
+              "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\PI\\Exercicios\\MODULO 02\\Lista 03 - Modulo 02\\Negocio\\Negocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

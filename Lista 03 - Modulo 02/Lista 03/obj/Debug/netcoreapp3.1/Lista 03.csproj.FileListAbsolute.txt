@@ -1,0 +1,20 @@
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Lista 03.exe
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Lista 03.deps.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Lista 03.runtimeconfig.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Lista 03.runtimeconfig.dev.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Lista 03.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Lista 03.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.genruntimeconfig.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Dado.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Dado.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Lista 03\obj\Debug\netcoreapp3.1\Lista 03.csproj.CopyComplete

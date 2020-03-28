@@ -1,0 +1,9 @@
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\BrunoHPO\Desktop\PI\Exercicios\MODULO 02\Lista 03 - Modulo 02\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb
