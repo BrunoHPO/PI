@@ -27,7 +27,7 @@ namespace LojaRoupa.Persistency
         public DbSet<TipoProduto> TiposProduto { get; set; }
         public DbSet<Tamanho> TamanhosProduto { get; set; }
         #endregion
-        public override async Task<int> SaveChangesAsync(CancellationToken token)
+        public override async Task<int> SaveChangesAsync(CancellationToken token = default)
         {
             return await base.SaveChangesAsync(token);
         }
@@ -42,14 +42,14 @@ namespace LojaRoupa.Persistency
             modelBuilder.Entity<Tamanho>().Property(t => t.Nome).HasMaxLength(200);
 
             modelBuilder.Entity<Tamanho>().HasData(new Tamanho[] {
-                new Tamanho(){Nome = "PPP"},
-                new Tamanho(){Nome = "PP"},
-                new Tamanho(){Nome = "P"},
-                new Tamanho(){Nome = "M"},
-                new Tamanho(){Nome = "G"},
-                new Tamanho(){Nome = "GG"},
-                new Tamanho(){Nome = "GGG"},
-                new Tamanho(){Nome = "UNICO"}
+                new Tamanho(){ID=1, Nome = "PPP"},
+                new Tamanho(){ID=2, Nome = "PP"},
+                new Tamanho(){ID=3, Nome = "P"},
+                new Tamanho(){ID=4, Nome = "M"},
+                new Tamanho(){ID=5, Nome = "G"},
+                new Tamanho(){ID=6, Nome = "GG"},
+                new Tamanho(){ID=7, Nome = "GGG"},
+                new Tamanho(){ID=8, Nome = "UNICO"}
             });
             #endregion
 
@@ -61,14 +61,14 @@ namespace LojaRoupa.Persistency
             modelBuilder.Entity<TipoProduto>().Property(t => t.Nome).HasMaxLength(200);
 
             modelBuilder.Entity<TipoProduto>().HasData(new TipoProduto[] {
-                new TipoProduto(){Nome="Calca"},
-                new TipoProduto(){Nome="Blusa"},
-                new TipoProduto(){Nome="Camiseta"},
-                new TipoProduto(){Nome="Bermuda"},
-                new TipoProduto(){Nome="Meia"},
-                new TipoProduto(){Nome="Cueca"},
-                new TipoProduto(){Nome="Jaqueta"},
-                new TipoProduto(){Nome="Conjunto"}
+                new TipoProduto(){ID=1, Nome="Calca"},
+                new TipoProduto(){ID=2, Nome="Blusa"},
+                new TipoProduto(){ID=3, Nome="Camiseta"},
+                new TipoProduto(){ID=4, Nome="Bermuda"},
+                new TipoProduto(){ID=5, Nome="Meia"},
+                new TipoProduto(){ID=6, Nome="Cueca"},
+                new TipoProduto(){ID=7, Nome="Jaqueta"},
+                new TipoProduto(){ID=8, Nome="Conjunto"}
             });
             #endregion
 
@@ -80,9 +80,9 @@ namespace LojaRoupa.Persistency
             modelBuilder.Entity<StatusPedido>().Property(s => s.Descricao).HasMaxLength(200);
 
             modelBuilder.Entity<StatusPedido>().HasData(new StatusPedido[] {
-                new StatusPedido(){Descricao="PAGO"},
-                new StatusPedido(){Descricao="CANCELADO"},
-                new StatusPedido(){Descricao="PENDENTE"}
+                new StatusPedido(){ID=1, Descricao="PAGO"},
+                new StatusPedido(){ID=2, Descricao="CANCELADO"},
+                new StatusPedido(){ID=3, Descricao="PENDENTE"}
             });
             #endregion
 
@@ -98,37 +98,37 @@ namespace LojaRoupa.Persistency
 
             modelBuilder.Entity<Estado>()
                 .HasMany(e => e.Enderecos)
-                .WithOne(d => d.estado)
+                .WithOne(d => d.Estado)
                 .HasForeignKey(d => d.IdEstado);
 
             modelBuilder.Entity<Estado>().HasData(new Estado[] {
-                new Estado(){Nome="Acre",Sigla="AC" },
-                new Estado(){Nome="Alagoas",Sigla="AL" },
-                new Estado(){Nome="Amapa",Sigla="AP" },
-                new Estado(){Nome="Amazonas",Sigla="AM" },
-                new Estado(){Nome="Bahia",Sigla="BA" },
-                new Estado(){Nome="Ceara",Sigla="CE" },
-                new Estado(){Nome="Distrito Federal",Sigla="DF" },
-                new Estado(){Nome="Espirito Santo",Sigla="ES" },
-                new Estado(){Nome="Goias",Sigla="GO" },
-                new Estado(){Nome="Maranhao",Sigla="MA" },
-                new Estado(){Nome="Mato Grosso",Sigla="MT" },
-                new Estado(){Nome="Mato GRosso do Sul",Sigla="MS" },
-                new Estado(){Nome="Minas Gerais",Sigla="MG" },
-                new Estado(){Nome="Para",Sigla="PA" },
-                new Estado(){Nome="Paraiba",Sigla="PB" },
-                new Estado(){Nome="Parana",Sigla="PR" },
-                new Estado(){Nome="Pernanbuco",Sigla="PE" },
-                new Estado(){Nome="Piaui",Sigla="PI" },
-                new Estado(){Nome="Rio de Janeiro",Sigla="RJ" },
-                new Estado(){Nome="Rio Grande do Norte",Sigla="RN" },
-                new Estado(){Nome="Rio Grande do Sul",Sigla="RS" },
-                new Estado(){Nome="Rondonia",Sigla="RO" },
-                new Estado(){Nome="Roraima",Sigla="RR" },
-                new Estado(){Nome="Santa Catarina",Sigla="SC" },
-                new Estado(){Nome="Sao Paulo",Sigla="SP" },
-                new Estado(){Nome="Sergipe",Sigla="SE" },
-                new Estado(){Nome="Tocantins",Sigla="TO" }
+                new Estado(){ID=1, Nome="Acre",Sigla="AC" },
+                new Estado(){ID=2, Nome="Alagoas",Sigla="AL" },
+                new Estado(){ID=3, Nome="Amapa",Sigla="AP" },
+                new Estado(){ID=4, Nome="Amazonas",Sigla="AM" },
+                new Estado(){ID=5, Nome="Bahia",Sigla="BA" },
+                new Estado(){ID=6, Nome="Ceara",Sigla="CE" },
+                new Estado(){ID=7, Nome="Distrito Federal",Sigla="DF" },
+                new Estado(){ID=8, Nome="Espirito Santo",Sigla="ES" },
+                new Estado(){ID=9, Nome="Goias",Sigla="GO" },
+                new Estado(){ID=10, Nome="Maranhao",Sigla="MA" },
+                new Estado(){ID=11, Nome="Mato Grosso",Sigla="MT" },
+                new Estado(){ID=12, Nome="Mato GRosso do Sul",Sigla="MS" },
+                new Estado(){ID=13, Nome="Minas Gerais",Sigla="MG" },
+                new Estado(){ID=14, Nome="Para",Sigla="PA" },
+                new Estado(){ID=15, Nome="Paraiba",Sigla="PB" },
+                new Estado(){ID=16, Nome="Parana",Sigla="PR" },
+                new Estado(){ID=17, Nome="Pernanbuco",Sigla="PE" },
+                new Estado(){ID=18, Nome="Piaui",Sigla="PI" },
+                new Estado(){ID=19, Nome="Rio de Janeiro",Sigla="RJ" },
+                new Estado(){ID=20, Nome="Rio Grande do Norte",Sigla="RN" },
+                new Estado(){ID=21, Nome="Rio Grande do Sul",Sigla="RS" },
+                new Estado(){ID=22, Nome="Rondonia",Sigla="RO" },
+                new Estado(){ID=23, Nome="Roraima",Sigla="RR" },
+                new Estado(){ID=24, Nome="Santa Catarina",Sigla="SC" },
+                new Estado(){ID=25, Nome="Sao Paulo",Sigla="SP" },
+                new Estado(){ID=26, Nome="Sergipe",Sigla="SE" },
+                new Estado(){ID=27, Nome="Tocantins",Sigla="TO" }
             });
             #endregion
 
@@ -145,9 +145,9 @@ namespace LojaRoupa.Persistency
                 .HasForeignKey(f => f.IdFormaPagamento);
 
             modelBuilder.Entity<FormaPagamento>().HasData(new FormaPagamento[] { 
-                new FormaPagamento(){Nome="Boleto" },
-                new FormaPagamento(){Nome="Cartao de Credito" },
-                new FormaPagamento(){Nome="Cartao de Debito" }
+                new FormaPagamento(){ID=1, Nome="Boleto" },
+                new FormaPagamento(){ID=2, Nome="Cartao de Credito" },
+                new FormaPagamento(){ID=3, Nome="Cartao de Debito" }
             });
             #endregion
 
@@ -163,11 +163,7 @@ namespace LojaRoupa.Persistency
 
             modelBuilder.Entity<Produto>().Property(p => p.Valor).IsRequired();
 
-            modelBuilder.Entity<Produto>().Property(p => p.Tipo).IsRequired();
-
             modelBuilder.Entity<Produto>().Property(p => p.IdTipoProduto).IsRequired();
-
-            modelBuilder.Entity<Produto>().Property(p => p.Tamanho).IsRequired();
 
             modelBuilder.Entity<Produto>().Property(p => p.IdTamanho).IsRequired();
             #endregion
@@ -188,8 +184,6 @@ namespace LojaRoupa.Persistency
             modelBuilder.Entity<Endereco>().Property(e => e.Cidade).IsRequired();
             modelBuilder.Entity<Endereco>().Property(e => e.Cidade).HasMaxLength(200);
 
-            modelBuilder.Entity<Endereco>().Property(e => e.estado).IsRequired();
-
             modelBuilder.Entity<Endereco>().Property(e => e.IdEstado).IsRequired();
 
             modelBuilder.Entity<Endereco>().Property(e => e.CEP).IsRequired();
@@ -197,8 +191,6 @@ namespace LojaRoupa.Persistency
 
             modelBuilder.Entity<Endereco>().Property(e => e.Complemento).IsRequired();
             modelBuilder.Entity<Endereco>().Property(e => e.Complemento).HasMaxLength(200);
-
-            modelBuilder.Entity<Endereco>().Property(e => e.cliente).IsRequired();
 
             modelBuilder.Entity<Endereco>().Property(e => e.IdCliente).IsRequired();
             #endregion
@@ -209,15 +201,11 @@ namespace LojaRoupa.Persistency
 
             modelBuilder.Entity<ItemPedido>().Property(i => i.UserID).IsRequired();
 
-            modelBuilder.Entity<ItemPedido>().Property(i => i.Produto).IsRequired();
-
             modelBuilder.Entity<ItemPedido>().Property(i => i.IdProduto).IsRequired();
 
             modelBuilder.Entity<ItemPedido>().Property(i => i.Quantidade).IsRequired();
 
             modelBuilder.Entity<ItemPedido>().Property(i => i.Subtotal).IsRequired();
-
-            modelBuilder.Entity<ItemPedido>().Property(i => i.pedido).IsRequired();
 
             modelBuilder.Entity<ItemPedido>().Property(i => i.IdPedido).IsRequired();
             #endregion
@@ -244,7 +232,7 @@ namespace LojaRoupa.Persistency
 
             modelBuilder.Entity<Cliente>()
                 .HasMany(e => e.Enderecos)
-                .WithOne(p => p.cliente)
+                .WithOne(p => p.Cliente)
                 .HasForeignKey(p => p.IdCliente);
 
             modelBuilder.Entity<Cliente>()
@@ -264,19 +252,12 @@ namespace LojaRoupa.Persistency
                 .WithOne(o => o.pedido)
                 .HasForeignKey(o => o.IdPedido);
 
-            modelBuilder.Entity<Pedido>().Property(p => p.cliente).IsRequired();
 
             modelBuilder.Entity<Pedido>().Property(p => p.IdCliente).IsRequired();
 
-            modelBuilder.Entity<Pedido>().Property(p => p.EnderecoEntrega).IsRequired();
-
             modelBuilder.Entity<Pedido>().Property(p => p.IdEnderecoEntrega).IsRequired();
 
-            modelBuilder.Entity<Pedido>().Property(p => p.Status).IsRequired();
-
             modelBuilder.Entity<Pedido>().Property(p => p.IdStatusPedido).IsRequired();
-
-            modelBuilder.Entity<Pedido>().Property(p => p.formaPagamento).IsRequired();
 
             modelBuilder.Entity<Pedido>().Property(p => p.IdFormaPagamento).IsRequired();
 
