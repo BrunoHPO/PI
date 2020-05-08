@@ -1,0 +1,14 @@
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Persistency.deps.json
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Persistency.dll
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Persistency.pdb
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Application.dll
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Core.dll
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Application.pdb
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\bin\Debug\netcoreapp3.1\LojaRoupa.Core.pdb
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.csproj.CopyComplete
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.dll
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Persistency\obj\Debug\netcoreapp3.1\LojaRoupa.Persistency.pdb

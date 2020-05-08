@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Persistency\\LojaRoupa.Persistency.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Application\\LojaRoupa.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Application\\LojaRoupa.Application.csproj",
+        "projectName": "LojaRoupa.Application",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Application\\LojaRoupa.Application.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Core\\LojaRoupa.Core.csproj": {
+                "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Core\\LojaRoupa.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Core\\LojaRoupa.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Core\\LojaRoupa.Core.csproj",
+        "projectName": "LojaRoupa.Core",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Core\\LojaRoupa.Core.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Persistency\\LojaRoupa.Persistency.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Persistency\\LojaRoupa.Persistency.csproj",
+        "projectName": "LojaRoupa.Persistency",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Persistency\\LojaRoupa.Persistency.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Persistency\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Application\\LojaRoupa.Application.csproj": {
+                "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\LojaRoupa.Core\\LojaRoupa.Application\\LojaRoupa.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

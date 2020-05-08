@@ -1,0 +1,9 @@
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\bin\Debug\netcoreapp3.1\LojaRoupa.Core.deps.json
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\bin\Debug\netcoreapp3.1\LojaRoupa.Core.dll
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\bin\Debug\netcoreapp3.1\LojaRoupa.Core.pdb
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\obj\Debug\netcoreapp3.1\LojaRoupa.Core.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\obj\Debug\netcoreapp3.1\LojaRoupa.Core.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\obj\Debug\netcoreapp3.1\LojaRoupa.Core.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\obj\Debug\netcoreapp3.1\LojaRoupa.Core.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\obj\Debug\netcoreapp3.1\LojaRoupa.Core.dll
+C:\Users\BrunoHPO\Desktop\LojaRoupa.Core\LojaRoupa.Core\obj\Debug\netcoreapp3.1\LojaRoupa.Core.pdb
