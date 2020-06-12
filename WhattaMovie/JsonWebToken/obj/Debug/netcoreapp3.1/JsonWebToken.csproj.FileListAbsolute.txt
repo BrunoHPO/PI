@@ -1,0 +1,9 @@
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\obj\Debug\netcoreapp3.1\JsonWebToken.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\obj\Debug\netcoreapp3.1\JsonWebToken.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\obj\Debug\netcoreapp3.1\JsonWebToken.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\obj\Debug\netcoreapp3.1\JsonWebToken.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\bin\Debug\netcoreapp3.1\JsonWebToken.deps.json
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\bin\Debug\netcoreapp3.1\JsonWebToken.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\bin\Debug\netcoreapp3.1\JsonWebToken.pdb
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\obj\Debug\netcoreapp3.1\JsonWebToken.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\JsonWebToken\obj\Debug\netcoreapp3.1\JsonWebToken.pdb

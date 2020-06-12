@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WhattaMovie.Application\WhattaMovie.Application.csproj" />
+    <ProjectReference Include="..\WhattaMovie.Domain\WhattaMovie.Domain.csproj" />
+    <ProjectReference Include="..\WhattaMovie.Infrastructure\WhattaMovie.Infrastructure.csproj" />
+    <ProjectReference Include="..\WhattaMovie.Persistency\WhattaMovie.Persistency.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Infrastructure\\WhattaMovie.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\JsonWebToken\\JsonWebToken.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\JsonWebToken\\JsonWebToken.csproj",
+        "projectName": "JsonWebToken",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\JsonWebToken\\JsonWebToken.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\JsonWebToken\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Application\\WhattaMovie.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Application\\WhattaMovie.Application.csproj",
+        "projectName": "WhattaMovie.Application",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Application\\WhattaMovie.Application.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Domain\\WhattaMovie.Domain.csproj": {
+                "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Domain\\WhattaMovie.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Domain\\WhattaMovie.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Domain\\WhattaMovie.Domain.csproj",
+        "projectName": "WhattaMovie.Domain",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Domain\\WhattaMovie.Domain.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Infrastructure\\WhattaMovie.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Infrastructure\\WhattaMovie.Infrastructure.csproj",
+        "projectName": "WhattaMovie.Infrastructure",
+        "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Infrastructure\\WhattaMovie.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\BrunoHPO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BrunoHPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\JsonWebToken\\JsonWebToken.csproj": {
+                "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\JsonWebToken\\JsonWebToken.csproj"
+              },
+              "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Application\\WhattaMovie.Application.csproj": {
+                "projectPath": "C:\\Users\\BrunoHPO\\Desktop\\WhattaMovie\\WhattaMovie.Application\\WhattaMovie.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

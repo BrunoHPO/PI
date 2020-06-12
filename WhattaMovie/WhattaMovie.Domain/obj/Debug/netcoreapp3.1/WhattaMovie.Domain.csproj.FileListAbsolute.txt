@@ -1,0 +1,9 @@
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\bin\Debug\netcoreapp3.1\WhattaMovie.Domain.deps.json
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\bin\Debug\netcoreapp3.1\WhattaMovie.Domain.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\bin\Debug\netcoreapp3.1\WhattaMovie.Domain.pdb
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\obj\Debug\netcoreapp3.1\WhattaMovie.Domain.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\obj\Debug\netcoreapp3.1\WhattaMovie.Domain.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\obj\Debug\netcoreapp3.1\WhattaMovie.Domain.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\obj\Debug\netcoreapp3.1\WhattaMovie.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\obj\Debug\netcoreapp3.1\WhattaMovie.Domain.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Domain\obj\Debug\netcoreapp3.1\WhattaMovie.Domain.pdb

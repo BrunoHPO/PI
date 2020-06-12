@@ -1,0 +1,17 @@
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Persistency.deps.json
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Persistency.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.csprojAssemblyReference.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.AssemblyInfoInputs.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.AssemblyInfo.cs
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Application.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Domain.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Domain.pdb
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Persistency.runtimeconfig.json
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Persistency.runtimeconfig.dev.json
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Persistency.pdb
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\bin\Debug\netcoreapp3.1\WhattaMovie.Application.pdb
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.csproj.CoreCompileInputs.cache
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.csproj.CopyComplete
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.dll
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.pdb
+C:\Users\BrunoHPO\Desktop\WhattaMovie\WhattaMovie.Persistency\obj\Debug\netcoreapp3.1\WhattaMovie.Persistency.genruntimeconfig.cache
