@@ -1,13 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using JsonWebToken;
+using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 using WhattaMovie.Application;
 using WhattaMovie.Domain;
+using WhattaMovie.Infrastructure;
 
 namespace WhattaMovie.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [JWTAuthorize]
+    [LoggingFilter]
     public class RatingsController : ControllerBase
     {
         private readonly IEntityCrudHandler<Rating> handler;
@@ -35,8 +39,8 @@ namespace WhattaMovie.API.Controllers
                 rating.MovieID,
                 CreatedBy = rating.OwnerID,
                 rating.MovieRating,
-                rating.CreatedOn,
-                rating.LastModifiedOn
+                AddedOn=rating.CreatedOn.ToShortDateString(),
+                LastModOn=rating.LastModifiedOn.ToShortDateString()
             });
         }
 
@@ -51,6 +55,7 @@ namespace WhattaMovie.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [RatingMatching]
         public async Task<IActionResult> Put(int id, Rating rating)
         {
             var userID = (int)this.RouteData.Values["UserID"];
@@ -61,6 +66,7 @@ namespace WhattaMovie.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [RatingMatching]
         public async Task<IActionResult> Delete(int id)
         {
             var userID = (int)this.RouteData.Values["UserID"];

@@ -1,13 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using JsonWebToken;
+using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Threading.Tasks;
 using WhattaMovie.Application;
 using WhattaMovie.Domain;
+using WhattaMovie.Infrastructure;
 
 namespace WhattaMovie.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [JWTAuthorize]
+    [LoggingFilter]
     public class MoviesController : ControllerBase
     {
         private readonly IEntityCrudHandler<Movie> handler;
@@ -35,11 +39,14 @@ namespace WhattaMovie.API.Controllers
                 movie.ID,
                 movie.Tittle,
                 movie.Genre,
-                movie.Year,
-                movie.AverageRating,
+                movie.Year,                
                 movie.Description,
-                ReviewsNumber = movie.Reviews.Count,
-                Creadtedby = movie.OwnerName
+                movie.AverageRating,
+                RatingNumber = movie.Ratings.Count(),
+                ReviewsNumber = movie.Reviews.Count(),
+                movie.OwnerID,
+                AddedOn = movie.CreatedOn.ToShortDateString(),
+                LastModON = movie.LastModifiedOn.ToShortDateString()
             });
         }
 
@@ -56,9 +63,11 @@ namespace WhattaMovie.API.Controllers
         {
             var userID = (int)this.RouteData.Values["UserID"];
             var movie = await handler.ObterUm(id, userID);
-            return new JsonResult(movie.Reviews.Select(r => new { r.ID,r.OwnerName, r.OwnerID,r.Title,r.Comment}));
+            return new JsonResult(movie.Reviews.Select(r => new { r.ID, r.OwnerID,r.Title,r.Comment}));
         }
 
+        [HttpPost]
+        [AdminOnly]
         public async Task<IActionResult> Post(Movie movie)
         {
             var userID = (int)this.RouteData.Values["UserID"];
@@ -69,6 +78,7 @@ namespace WhattaMovie.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [AdminOnly]
         public async Task<IActionResult> Put(int id, Movie movie)
         {
             var userID = (int)this.RouteData.Values["UserID"];
@@ -79,6 +89,7 @@ namespace WhattaMovie.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [AdminOnly]
         public async Task<IActionResult> Delete(int id)
         {
             var userID = (int)this.RouteData.Values["UserID"];
