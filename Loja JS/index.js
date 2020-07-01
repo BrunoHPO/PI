@@ -25,6 +25,11 @@
 // Fazer o replace dos valores do objeto no template
 // Renderizar - Adicionar todos os items (transformados pelo template) da lista global no innerHTML da lista do carrinho
 
+// Adicionar um eventListener para click na lista do carrinho
+// Verificar se é o botão remover
+// Pegar o data-id, para saber qual item remover
+// Fazer um filter na lista global e remover o que tiver o id proveniente do botão
+// Rederizar - Adicionar todos os items (transformados pelo template) da lista global no innerHTML da lista do carrinho
 
 String.prototype.replaceAll = function(from, to){ return this.split(from).join(to);};
 const replaceAll = (from, to, text) => text.split(from).join(to);
@@ -36,11 +41,7 @@ const productList = document.querySelector('#lista-produtos');
 const shoppingCartList = document.querySelector('#lista-carrinho')
 const templateElement = document.querySelector('#carrinho-item');
 const template = templateElement.innerHTML;
-
-const render = () => {
-  const shoppingCartElementsHTML = shoppingCartElements.map((item) => templateToHTML(template, item));
-  shoppingCartList.innerHTML = shoppingCartElementsHTML.join('\n');
-};
+const totalSpot = document.querySelector('#total');
 
 const templateToHTML = (template, item) => {
   return template
@@ -48,9 +49,41 @@ const templateToHTML = (template, item) => {
     .replaceAll('{{NOME}}', item.name)
     .replaceAll('{{PRECO}}', item.price)
     .replaceAll('{{ID}}', item.id)
+    .replaceAll('{{QUANTIDADE}}', item.quantity);
 };
 
-productList.addEventListener('click',(evt)=>{
+const render = () => {
+  const shoppingCartElementsHTML = shoppingCartElements.map((item) => templateToHTML(template, item));
+  shoppingCartList.innerHTML = shoppingCartElementsHTML.join('\n');
+  const total = shoppingCartElements.reduce((acc,item)=> acc+=parseInt(item.price)*parseFloat(item.quantity),0);
+  totalSpot.innerText = total.toFixed(2).replace('.',',');
+};
+
+const checkDoubleItemthenAdd = (newItem) => {
+  if(shoppingCartElements.length === 0)
+  {
+    return shoppingCartElements.push(newItem);
+  }
+  else
+  {
+    const exists = shoppingCartElements.filter(item => item.id === newItem.id);
+    if(exists.length === 0)
+    {
+      return shoppingCartElements.push(newItem);
+    }
+    else
+    {
+      const index = shoppingCartElements.findIndex(item => item.id === newItem.id);
+      if(shoppingCartElements[index].quantity>4)
+      {
+        throw 'A Quantidade do produto chegou ao maximo[5]';
+      }
+      return shoppingCartElements[index].quantity = parseInt(shoppingCartElements[index].quantity)+1;      
+    }
+  }
+};
+
+productList.addEventListener('click',(evt) => {
   const buttonProduct = evt.target;
   if(buttonProduct.nodeName === 'BUTTON' && buttonProduct.innerText === 'Comprar'){
     const data = [...buttonProduct.attributes];
@@ -59,25 +92,31 @@ productList.addEventListener('click',(evt)=>{
       const value = node.nodeValue;
       obj[attr]=value;
       return obj;
-    },{});      
-    shoppingCartElements.push(product);
+    },{});
+    checkDoubleItemthenAdd(product);
     render();
   };
 });
 
-shoppingCartList.addEventListener('click',(evt)=>{
+shoppingCartList.addEventListener('click',(evt) => {
   const buttonRemove = evt.target;
   if(buttonRemove.nodeName === 'BUTTON'){    
-    const productID = parseInt(buttonRemove.attributes['data-id'].nodeValue);    
+    const id = evt.target.getAttribute('data-id');
+    shoppingCartElements = shoppingCartElements.filter(item => item.id!==id);
+    render();                                                                                                             
   };
 });
 
-// Adicionar um eventListener para click na lista do carrinho
-// Verificar se é o botão remover
-// Pegar o data-id, para saber qual item remover
-// Fazer um filter na lista global e remover o que tiver o id proveniente do botão
-// Rederizar - Adicionar todos os items (transformados pelo template) da lista global no innerHTML da lista do carrinho
-
+shoppingCartList.addEventListener('change',(evt) => {
+  const qtdButton = evt.target;
+  if(qtdButton.nodeName==='INPUT')
+  {
+    const id = qtdButton.attributes['data-id'].nodeValue;
+    const index = shoppingCartElements.findIndex(item => item.id === id);
+    shoppingCartElements[index].quantity = parseInt(qtdButton.value);
+    render();    
+  }
+});
 // Desafio
 // Adicionar um eventListener para change na lista do carrinho
 // Verificar se o target é um input
