@@ -3,13 +3,13 @@ const fs = require('fs');
 
 const app = express();
 
-app.use(express.static('../public'));
+app.use(express.static('public'));
 
 app.get('/api/legiao', (_, res) => {
-    fs.readFile('../data/LGN.json', (err,data) => {
+    fs.readFile('data/LGN.json', (err, data) =>{
         if(err){
             res.statusCode = 500;
-            return res.end('houve um erro inesperado...')
+            return res.end('houve um erro inesperado...');
         }
         else{
             res.statusCode = 200;
@@ -19,10 +19,10 @@ app.get('/api/legiao', (_, res) => {
 });
 
 app.get('/api/investida', (_, res) => {
-    fs.readFile('../data/ONS.json', (err,data) => {
+    fs.readFile('data/ONS.json', (err, data) =>{
         if(err){
             res.statusCode = 500;
-            return res.end('houve um erro inesperado...')
+            return res.end('houve um erro inesperado...');
         }
         else{
             res.statusCode = 200;
@@ -32,10 +32,10 @@ app.get('/api/investida', (_, res) => {
 });
 
 app.get('/api/fragelo', (_, res) => {
-    fs.readFile('../data/SCG.json', (err,data) => {
+    fs.readFile('data/SCG.json', (err, data) =>{
         if(err){
             res.statusCode = 500;
-            return res.end('houve um erro inesperado...')
+            return res.end('houve um erro inesperado...');
         }
         else{
             res.statusCode = 200;

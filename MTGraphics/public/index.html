@@ -4,28 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTGraphics</title>
-    <link href="http://fonts.google.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
     <link href="index.css" tupe="text/css" rel="stylesheet" />
 </head>
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <div class="container">
         <h1>MTGraphics</h1>
-        <ul class = "overall">
-            ok
-                
-        </ul>
-        <ul class = "colors">
-            ok2
-        </ul>
+        <ul class="sets">
+            <li>
+                <canvas id="ONSGraph" width="300" height="300"></canvas>
+            </li>
+            <li>
+                <canvas id="LGNGraph" width="300" height="300"></canvas>
+            </li>
+            <li>
+                <canvas id="SCGGraph" width="300" height="300"></canvas>
+            </li>
+            <li>
+                <canvas id="teste" width="300" height="300"></canvas>
+            </li>
+        </ul>        
     </div>
-    <template id="single-color">
-        <canvas class="creatureByMana"width="400" height="400"></canvas>
-        <div class= "creatureAvg">
-            <span>{{POWER}} / {{TOUGHNESS}}</span>
-        </div>
-        <canvas class="othersByMana"width="400" height="400"></canvas>
-    </template>
-    <script src= 'index.js' type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
