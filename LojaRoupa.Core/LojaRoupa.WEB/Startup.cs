@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using LojaRoupa.WEB.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using LojaRoupa.Persistency;
+using LojaRoupa.Application;
 
 namespace LojaRoupa.WEB
 {
@@ -38,7 +38,13 @@ namespace LojaRoupa.WEB
                 });
             });
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddScoped<TamanhoHandler>((context) => 
+                new TamanhoHandler(
+                    context.GetRequiredService<LojaDbContext>()
+                    )
+                );
+
+            services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<LojaDbContext>();
 
             services.AddControllersWithViews();

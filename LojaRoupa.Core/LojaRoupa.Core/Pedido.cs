@@ -10,7 +10,7 @@ namespace LojaRoupa.Core
         public DateTime DataPedido { get; set; }
         public ICollection<ItemPedido> Items { get; set; }
         public Cliente cliente { get; set; }
-        public string IdCliente { get; set; }
+        public int IdCliente { get; set; }
         public Endereco EnderecoEntrega { get; set; }
         public int IdEnderecoEntrega { get; set; }
         public StatusPedido Status { get; set; }

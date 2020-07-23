@@ -12,13 +12,13 @@ namespace LojaRoupa.Core
         public string Numero { get; set; }
         public string Bairro { get; set; }
         public string Cidade { get; set; }
-        public Estado estado { get; set; }
+        public Estado Estado { get; set; }
         public int IdEstado { get; set; }
 
         [MaxLength(8)]
         public string CEP { get; set; }
         public string Complemento { get; set; }
-        public Cliente cliente { get; set; }
-        public string IdCliente { get; set; }
+        public Cliente Cliente { get; set; }
+        public int IdCliente { get; set; }
     }   
 }
